@@ -5,7 +5,7 @@ const initialState = {
   };
 function feedbackReducer (state = initialState, action) {
     switch (action.type) {
-      case 'addFeedback':
+      case 'addTask':
         return { ...state, feedback: action.data }; 
       default:
         return state;
